@@ -4,7 +4,7 @@ const cors = require("cors");
 const pool = require("./db");
 
 const PROJECT_NAME = "Campus Maintenance Requests";
-const STUDENT_NUMBER = process.env.STUDENT_NUMBER || "STUDENT_NUMBER";
+const STUDENT_NUMBER = process.env.STUDENT_NUMBER || "202506481";
 
 const app = express();
 app.set("trust proxy", true); // Render sits behind a proxy; gives the real https URL.
